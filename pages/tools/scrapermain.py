@@ -8,10 +8,19 @@ import json
 import os
 from .scraper.scraper import crawl_web
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+from urllib.parse import quote_plus
 
 now = datetime.now()
 date_time = now.strftime("%Y-%m-%d_%H-%M-%S")
 
+
+load_dotenv(".env")
+
+
+encoded_username = quote_plus(os.getenv('MONGO_USERNAME'))
+encoded_password = quote_plus(os.getenv('MONGO_PASSWORD'))
 
 def create_driver():
     options = webdriver.ChromeOptions()
@@ -28,7 +37,7 @@ def scraper_main(urls, info):
     now = datetime.now()
     date_time = now.strftime("%Y-%m-%d %H:%M:%S")
     # client = pymongo.MongoClient("localhost", 27017)
-    client = pymongo.MongoClient("mongodb://root:Edubild_123@mongodb:27017")
+    client = pymongo.MongoClient(f"mongodb+srv://{encoded_username}:{encoded_password}@cluster0.ysm4ibh.mongodb.net/?appName=Cluster0")
     db = client["scraped"]
     collection = db["scrap_info"]
     history = db["history"]

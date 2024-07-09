@@ -5,20 +5,30 @@ from pymongo import MongoClient
 import base64
 from io import BytesIO
 from bson import ObjectId
-
+from dotenv import load_dotenv
+import os
 from menu import menu_with_redirect
+from urllib.parse import quote_plus
+load_dotenv(".env")
+
+
+encoded_username = quote_plus(os.getenv('MONGO_USERNAME'))
+encoded_password = quote_plus(os.getenv('MONGO_PASSWORD'))
+
+
 
 menu_with_redirect()
 
 # MongoDB connection details
-# mongo_uri = 'mongodb://localhost:27017/'
+mongo_uri = f"mongodb+srv://{encoded_username}:{encoded_password}@cluster0.ysm4ibh.mongodb.net/?appName=Cluster0"
+
 database_name = 'scraped'
 collection_name = 'history'
 # data_collection = 'scrap_info'
 
 # Connect to MongoDB
-# client = MongoClient(mongo_uri)
-client = MongoClient("mongodb://root:Edubild_123@mongodb:27017")
+client = MongoClient(mongo_uri)
+# client = MongoClient("mongodb://root:Edubild_123@mongodb:27017")
 db = client[database_name]
 history_collection = db[collection_name]
 data_collection = db['scrap_info']
