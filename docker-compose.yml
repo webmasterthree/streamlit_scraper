@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  application:
+    container_name: application
+    build:
+      dockerfile: Dockerfile
+    command: streamlit run auth.py --server.address=0.0.0.0 --server.port=8501 --server.enableCORS=false --server.enableXsrfProtection=false
+    ports:
+      - "8501:8501"
+      - "8502:8502"
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: "mongo:latest"
+    container_name: mongodb  # Changed container name here
+    ports:
+      - "27020:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: Edubild_123
+    volumes:
+      - ./data:/data/db
+
+volumes:
+  data:

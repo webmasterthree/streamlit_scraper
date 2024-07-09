@@ -1,0 +1,109 @@
+2024-07-05 14:32:23 : Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75C21EEA2+31554]
+	(No symbol) [0x00007FF75C197ED9]
+	(No symbol) [0x00007FF75C05872A]
+	(No symbol) [0x00007FF75C050782]
+	(No symbol) [0x00007FF75C041294]
+	(No symbol) [0x00007FF75C042B02]
+	(No symbol) [0x00007FF75C0415C1]
+	(No symbol) [0x00007FF75C040DA1]
+	(No symbol) [0x00007FF75C040CE0]
+	(No symbol) [0x00007FF75C03EC6D]
+	(No symbol) [0x00007FF75C03F2AC]
+	(No symbol) [0x00007FF75C05B501]
+	(No symbol) [0x00007FF75C0ED33E]
+	(No symbol) [0x00007FF75C0CD02A]
+	(No symbol) [0x00007FF75C0EC977]
+	(No symbol) [0x00007FF75C0CCDD3]
+	(No symbol) [0x00007FF75C09A33B]
+	(No symbol) [0x00007FF75C09AED1]
+	GetHandleVerifier [0x00007FF75C528B1D+3217341]
+	GetHandleVerifier [0x00007FF75C575AE3+3532675]
+	GetHandleVerifier [0x00007FF75C56B0E0+3489152]
+	GetHandleVerifier [0x00007FF75C2CE776+750614]
+	(No symbol) [0x00007FF75C1A375F]
+	(No symbol) [0x00007FF75C19EB14]
+	(No symbol) [0x00007FF75C19ECA2]
+	(No symbol) [0x00007FF75C18E16F]
+	BaseThreadInitThunk [0x00007FFA63DD7344+20]
+	RtlUserThreadStart [0x00007FFA649DCC91+33]
+
+2024-07-05 14:33:04 : Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75C21EEA2+31554]
+	(No symbol) [0x00007FF75C197ED9]
+	(No symbol) [0x00007FF75C05872A]
+	(No symbol) [0x00007FF75C050782]
+	(No symbol) [0x00007FF75C041294]
+	(No symbol) [0x00007FF75C042B02]
+	(No symbol) [0x00007FF75C0415C1]
+	(No symbol) [0x00007FF75C040DA1]
+	(No symbol) [0x00007FF75C040CE0]
+	(No symbol) [0x00007FF75C03EC6D]
+	(No symbol) [0x00007FF75C03F2AC]
+	(No symbol) [0x00007FF75C05B501]
+	(No symbol) [0x00007FF75C0ED33E]
+	(No symbol) [0x00007FF75C0CD02A]
+	(No symbol) [0x00007FF75C0EC977]
+	(No symbol) [0x00007FF75C0CCDD3]
+	(No symbol) [0x00007FF75C09A33B]
+	(No symbol) [0x00007FF75C09AED1]
+	GetHandleVerifier [0x00007FF75C528B1D+3217341]
+	GetHandleVerifier [0x00007FF75C575AE3+3532675]
+	GetHandleVerifier [0x00007FF75C56B0E0+3489152]
+	GetHandleVerifier [0x00007FF75C2CE776+750614]
+	(No symbol) [0x00007FF75C1A375F]
+	(No symbol) [0x00007FF75C19EB14]
+	(No symbol) [0x00007FF75C19ECA2]
+	(No symbol) [0x00007FF75C18E16F]
+	BaseThreadInitThunk [0x00007FFA63DD7344+20]
+	RtlUserThreadStart [0x00007FFA649DCC91+33]
+
+2024-07-05 14:33:38 : Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75C21EEA2+31554]
+	(No symbol) [0x00007FF75C197ED9]
+	(No symbol) [0x00007FF75C05872A]
+	(No symbol) [0x00007FF75C050782]
+	(No symbol) [0x00007FF75C041294]
+	(No symbol) [0x00007FF75C042B02]
+	(No symbol) [0x00007FF75C0415C1]
+	(No symbol) [0x00007FF75C040DA1]
+	(No symbol) [0x00007FF75C040CE0]
+	(No symbol) [0x00007FF75C03EC6D]
+	(No symbol) [0x00007FF75C03F2AC]
+	(No symbol) [0x00007FF75C05B501]
+	(No symbol) [0x00007FF75C0ED33E]
+	(No symbol) [0x00007FF75C0CD02A]
+	(No symbol) [0x00007FF75C0EC977]
+	(No symbol) [0x00007FF75C0CCDD3]
+	(No symbol) [0x00007FF75C09A33B]
+	(No symbol) [0x00007FF75C09AED1]
+	GetHandleVerifier [0x00007FF75C528B1D+3217341]
+	GetHandleVerifier [0x00007FF75C575AE3+3532675]
+	GetHandleVerifier [0x00007FF75C56B0E0+3489152]
+	GetHandleVerifier [0x00007FF75C2CE776+750614]
+	(No symbol) [0x00007FF75C1A375F]
+	(No symbol) [0x00007FF75C19EB14]
+	(No symbol) [0x00007FF75C19ECA2]
+	(No symbol) [0x00007FF75C18E16F]
+	BaseThreadInitThunk [0x00007FFA63DD7344+20]
+	RtlUserThreadStart [0x00007FFA649DCC91+33]
+
+2024-07-05 14:34:25 : No module named 'openpyxl'
+2024-07-05 14:55:03 : [Errno 13] Permission denied: 'data_output.xlsx'
+2024-07-05 14:55:55 : [Errno 13] Permission denied: 'data_output.xlsx'
+2024-07-05 15:00:41 : property 'book' of 'OpenpyxlWriter' object has no setter
+2024-07-05 15:15:27 : 'str' object has no attribute 'items'
+2024-07-05 15:16:19 : 'str' object has no attribute 'items'
+2024-07-05 15:18:41 : 'str' object has no attribute 'items'
+2024-07-05 15:20:40 : If using all scalar values, you must pass an index
+2024-07-05 15:21:31 : If using all scalar values, you must pass an index
+2024-07-05 15:28:25 : 'DataFrame' object has no attribute 'append'
+2024-07-05 15:30:36 : 'DataFrame' object has no attribute 'append'
+2024-07-06 10:57:19 : cannot encode object: Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'scraped'), 'history._id'), of type: <class 'pymongo.collection.Collection'>
+2024-07-06 10:57:53 : cannot encode object: Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'scraped'), 'history._id'), of type: <class 'pymongo.collection.Collection'>
